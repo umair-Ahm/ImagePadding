@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		528AF441293B03BC000F0C99 /* ImagePaddingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528AF440293B03BC000F0C99 /* ImagePaddingApp.swift */; };
+		528AF443293B03BC000F0C99 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528AF442293B03BC000F0C99 /* ContentView.swift */; };
+		528AF445293B03BF000F0C99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528AF444293B03BF000F0C99 /* Assets.xcassets */; };
+		528AF448293B03BF000F0C99 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 528AF447293B03BF000F0C99 /* Preview Assets.xcassets */; };
+		528AF452293B03BF000F0C99 /* ImagePaddingTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528AF451293B03BF000F0C99 /* ImagePaddingTests.swift */; };
+		528AF45C293B03BF000F0C99 /* ImagePaddingUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528AF45B293B03BF000F0C99 /* ImagePaddingUITests.swift */; };
+		528AF45E293B03BF000F0C99 /* ImagePaddingUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528AF45D293B03BF000F0C99 /* ImagePaddingUITestsLaunchTests.swift */; };
+		528AF46B293B24BA000F0C99 /* TabbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 528AF46A293B24BA000F0C99 /* TabbarView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		528AF44E293B03BF000F0C99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 528AF435293B03BC000F0C99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528AF43C293B03BC000F0C99;
+			remoteInfo = ImagePadding;
+		};
+		528AF458293B03BF000F0C99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 528AF435293B03BC000F0C99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 528AF43C293B03BC000F0C99;
+			remoteInfo = ImagePadding;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		528AF43D293B03BC000F0C99 /* ImagePadding.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePadding.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		528AF440293B03BC000F0C99 /* ImagePaddingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaddingApp.swift; sourceTree = "<group>"; };
+		528AF442293B03BC000F0C99 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		528AF444293B03BF000F0C99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		528AF447293B03BF000F0C99 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		528AF44D293B03BF000F0C99 /* ImagePaddingTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePaddingTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528AF451293B03BF000F0C99 /* ImagePaddingTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaddingTests.swift; sourceTree = "<group>"; };
+		528AF457293B03BF000F0C99 /* ImagePaddingUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImagePaddingUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		528AF45B293B03BF000F0C99 /* ImagePaddingUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaddingUITests.swift; sourceTree = "<group>"; };
+		528AF45D293B03BF000F0C99 /* ImagePaddingUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePaddingUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		528AF46A293B24BA000F0C99 /* TabbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabbarView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		528AF43A293B03BC000F0C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528AF44A293B03BF000F0C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528AF454293B03BF000F0C99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		528AF434293B03BC000F0C99 = {
+			isa = PBXGroup;
+			children = (
+				528AF43F293B03BC000F0C99 /* ImagePadding */,
+				528AF450293B03BF000F0C99 /* ImagePaddingTests */,
+				528AF45A293B03BF000F0C99 /* ImagePaddingUITests */,
+				528AF43E293B03BC000F0C99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		528AF43E293B03BC000F0C99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				528AF43D293B03BC000F0C99 /* ImagePadding.app */,
+				528AF44D293B03BF000F0C99 /* ImagePaddingTests.xctest */,
+				528AF457293B03BF000F0C99 /* ImagePaddingUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		528AF43F293B03BC000F0C99 /* ImagePadding */ = {
+			isa = PBXGroup;
+			children = (
+				528AF440293B03BC000F0C99 /* ImagePaddingApp.swift */,
+				528AF442293B03BC000F0C99 /* ContentView.swift */,
+				528AF46A293B24BA000F0C99 /* TabbarView.swift */,
+				528AF444293B03BF000F0C99 /* Assets.xcassets */,
+				528AF446293B03BF000F0C99 /* Preview Content */,
+			);
+			path = ImagePadding;
+			sourceTree = "<group>";
+		};
+		528AF446293B03BF000F0C99 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				528AF447293B03BF000F0C99 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		528AF450293B03BF000F0C99 /* ImagePaddingTests */ = {
+			isa = PBXGroup;
+			children = (
+				528AF451293B03BF000F0C99 /* ImagePaddingTests.swift */,
+			);
+			path = ImagePaddingTests;
+			sourceTree = "<group>";
+		};
+		528AF45A293B03BF000F0C99 /* ImagePaddingUITests */ = {
+			isa = PBXGroup;
+			children = (
+				528AF45B293B03BF000F0C99 /* ImagePaddingUITests.swift */,
+				528AF45D293B03BF000F0C99 /* ImagePaddingUITestsLaunchTests.swift */,
+			);
+			path = ImagePaddingUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		528AF43C293B03BC000F0C99 /* ImagePadding */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528AF461293B03BF000F0C99 /* Build configuration list for PBXNativeTarget "ImagePadding" */;
+			buildPhases = (
+				528AF439293B03BC000F0C99 /* Sources */,
+				528AF43A293B03BC000F0C99 /* Frameworks */,
+				528AF43B293B03BC000F0C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImagePadding;
+			productName = ImagePadding;
+			productReference = 528AF43D293B03BC000F0C99 /* ImagePadding.app */;
+			productType = "com.apple.product-type.application";
+		};
+		528AF44C293B03BF000F0C99 /* ImagePaddingTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528AF464293B03BF000F0C99 /* Build configuration list for PBXNativeTarget "ImagePaddingTests" */;
+			buildPhases = (
+				528AF449293B03BF000F0C99 /* Sources */,
+				528AF44A293B03BF000F0C99 /* Frameworks */,
+				528AF44B293B03BF000F0C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528AF44F293B03BF000F0C99 /* PBXTargetDependency */,
+			);
+			name = ImagePaddingTests;
+			productName = ImagePaddingTests;
+			productReference = 528AF44D293B03BF000F0C99 /* ImagePaddingTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		528AF456293B03BF000F0C99 /* ImagePaddingUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 528AF467293B03BF000F0C99 /* Build configuration list for PBXNativeTarget "ImagePaddingUITests" */;
+			buildPhases = (
+				528AF453293B03BF000F0C99 /* Sources */,
+				528AF454293B03BF000F0C99 /* Frameworks */,
+				528AF455293B03BF000F0C99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				528AF459293B03BF000F0C99 /* PBXTargetDependency */,
+			);
+			name = ImagePaddingUITests;
+			productName = ImagePaddingUITests;
+			productReference = 528AF457293B03BF000F0C99 /* ImagePaddingUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		528AF435293B03BC000F0C99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					528AF43C293B03BC000F0C99 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					528AF44C293B03BF000F0C99 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 528AF43C293B03BC000F0C99;
+					};
+					528AF456293B03BF000F0C99 = {
+						CreatedOnToolsVersion = 14.0.1;
+						TestTargetID = 528AF43C293B03BC000F0C99;
+					};
+				};
+			};
+			buildConfigurationList = 528AF438293B03BC000F0C99 /* Build configuration list for PBXProject "ImagePadding" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 528AF434293B03BC000F0C99;
+			productRefGroup = 528AF43E293B03BC000F0C99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				528AF43C293B03BC000F0C99 /* ImagePadding */,
+				528AF44C293B03BF000F0C99 /* ImagePaddingTests */,
+				528AF456293B03BF000F0C99 /* ImagePaddingUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		528AF43B293B03BC000F0C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528AF448293B03BF000F0C99 /* Preview Assets.xcassets in Resources */,
+				528AF445293B03BF000F0C99 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528AF44B293B03BF000F0C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528AF455293B03BF000F0C99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		528AF439293B03BC000F0C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528AF46B293B24BA000F0C99 /* TabbarView.swift in Sources */,
+				528AF443293B03BC000F0C99 /* ContentView.swift in Sources */,
+				528AF441293B03BC000F0C99 /* ImagePaddingApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528AF449293B03BF000F0C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528AF452293B03BF000F0C99 /* ImagePaddingTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		528AF453293B03BF000F0C99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				528AF45E293B03BF000F0C99 /* ImagePaddingUITestsLaunchTests.swift in Sources */,
+				528AF45C293B03BF000F0C99 /* ImagePaddingUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		528AF44F293B03BF000F0C99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528AF43C293B03BC000F0C99 /* ImagePadding */;
+			targetProxy = 528AF44E293B03BF000F0C99 /* PBXContainerItemProxy */;
+		};
+		528AF459293B03BF000F0C99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 528AF43C293B03BC000F0C99 /* ImagePadding */;
+			targetProxy = 528AF458293B03BF000F0C99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		528AF45F293B03BF000F0C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		528AF460293B03BF000F0C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		528AF462293B03BF000F0C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImagePadding/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Umair.ImagePadding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		528AF463293B03BF000F0C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ImagePadding/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Umair.ImagePadding;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		528AF465293B03BF000F0C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Umair.ImagePaddingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagePadding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImagePadding";
+			};
+			name = Debug;
+		};
+		528AF466293B03BF000F0C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Umair.ImagePaddingTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImagePadding.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ImagePadding";
+			};
+			name = Release;
+		};
+		528AF468293B03BF000F0C99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Umair.ImagePaddingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImagePadding;
+			};
+			name = Debug;
+		};
+		528AF469293B03BF000F0C99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Umair.ImagePaddingUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ImagePadding;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		528AF438293B03BC000F0C99 /* Build configuration list for PBXProject "ImagePadding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528AF45F293B03BF000F0C99 /* Debug */,
+				528AF460293B03BF000F0C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528AF461293B03BF000F0C99 /* Build configuration list for PBXNativeTarget "ImagePadding" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528AF462293B03BF000F0C99 /* Debug */,
+				528AF463293B03BF000F0C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528AF464293B03BF000F0C99 /* Build configuration list for PBXNativeTarget "ImagePaddingTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528AF465293B03BF000F0C99 /* Debug */,
+				528AF466293B03BF000F0C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		528AF467293B03BF000F0C99 /* Build configuration list for PBXNativeTarget "ImagePaddingUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				528AF468293B03BF000F0C99 /* Debug */,
+				528AF469293B03BF000F0C99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 528AF435293B03BC000F0C99 /* Project object */;
+}
